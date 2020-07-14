@@ -1,5 +1,4 @@
-# Hotel Board Game
-
+# Implementation of board game "Hotel" using Java
 It's about the popular board game "Hotel", that every child used to love playing back in the 2000s.  
 ![screenshot](images/pic552086.jpg)  
 
