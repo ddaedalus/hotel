@@ -2,7 +2,7 @@ class Entrance {
     private Tuple position;
     private HotelCard hotel;
     private Player player;
-	private boolean inUse = true;
+    private boolean inUse = true;
 
     Entrance(Tuple t, HotelCard h, Player p) {
         position = t;

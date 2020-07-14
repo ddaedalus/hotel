@@ -22,16 +22,16 @@ class Board {
     Tuple C = new Tuple();
     private ArrayList<HotelCard> hotels;
 	
-	/*
-	 * 1: invalid
-	 * 0: valid
-	 */
-	int[][] legal = new int[12][15];
+    /*
+     * 1: invalid
+     * 0: valid
+     */
+    int[][] legal = new int[12][15];
     int[][] legal_entrances = new int[12][15];
     int[][] legal_entrances_pos = new int [12][15];
 	
-	// An array of all entrance objects on the board
-	Entrance[][] entrances = new Entrance[12][15];
+    // An array of all entrance objects on the board
+    Entrance[][] entrances = new Entrance[12][15];
 
     public void readBoard(String board_txt) {
         try {     
@@ -73,7 +73,7 @@ class Board {
         }	
     }
 
-	// Returns the final position of player after he throws a dice 
+    // Returns the final position of player after he throws a dice 
     public int setLegal(int prevx, int prevy, int x, int y) {
 
         if (legal[x][y] == 0) {

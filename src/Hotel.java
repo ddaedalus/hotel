@@ -6,7 +6,7 @@ public class Hotel extends javax.swing.JFrame {
 
     static ArrayList<HotelCard> cards = new ArrayList<>();
     static Dice dice = new Dice();
-	static BuildDice dice2 = new BuildDice();
+    static BuildDice dice2 = new BuildDice();
     static Board board = new Board();
     static ArrayList<Player> order = new ArrayList<>();
 
